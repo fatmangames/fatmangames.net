@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fat Man Games</title>
+<meta name="description" content="Fat Man Games is an independent studio making funny, feel-good PC games.">
+<link rel="icon" href="logos/fmg3d-browser-icon-300.png">
+<meta property="og:image" content="https://fatmangames.net/logos/fmg3d-social-share-1200x630.png">
+<style>
+:root{--page:#FFFFFF;--hdr:#FFFFFF}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--page:#FFFFFF;--hdr:#FFFFFF}}
+:root[data-theme="dark"]{--page:#FFFFFF;--hdr:#FFFFFF}
+html,body{margin:0;background:var(--page);color-scheme:light}
+.sq-head{background:var(--hdr);border-bottom:1px solid #E2DDD3}
+.sq-head .fmg-in{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+.sq-logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:#13213D}
+.sq-logo img{height:56px;width:auto;display:block}
+.sq-nav{display:flex;gap:22px;list-style:none;margin:0;padding:0;font:500 16px "DM Sans",sans-serif}
+.sq-nav a{color:#13213D;text-decoration:none}
+.sq-nav a:hover{color:#C2410C}
+</style></head><body>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chewy&family=DM+Sans:wght@400;500;700&display=swap">
+<style>
+.fmg{--navy:#13213D;--orange:#FF6B1A;--orange-text:#C2410C;--cream:#F3F1EC;--white:#FFFFFF;--soft:#5E584E;--line:#E2DDD3;
+  font-family:"DM Sans",system-ui,sans-serif;font-size:17px;line-height:1.6;color:var(--navy);background:var(--white);text-align:left}
+.fmg *{box-sizing:border-box}
+.fmg h1,.fmg h2,.fmg h3{font-family:"Chewy",system-ui,sans-serif;font-weight:400;letter-spacing:0;line-height:1.05;margin:0;color:inherit;text-transform:none}
+.fmg p{margin:0}
+.fmg a{color:inherit}
+.fmg-in{max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* hero */
+.fmg-hero{background:#111F3C;color:var(--white);padding:72px 0 80px;text-align:center}
+.fmg-hero .fmg-mark{width:min(340px,70vw);height:auto;display:block;margin:-12px auto 8px}
+.fmg-hero h1{font-size:clamp(2.6rem,7vw,4.6rem)}
+.fmg-hero h1 span{color:var(--orange)}
+.fmg-word{display:flex;flex-direction:column;align-items:center;font-size:clamp(3.2rem,9vw,5.6rem)!important}
+.fmg-word span{font-size:.44em;letter-spacing:.45em;margin-right:-.45em;margin-top:.1em}
+.fmg-hero p{max-width:34em;margin:18px auto 30px;color:#C9D1E0;font-size:1.1rem}
+.fmg-btn{display:inline-block;background:var(--orange);color:var(--navy)!important;font-weight:700;text-decoration:none;padding:14px 28px;border-radius:999px;font-size:1rem}
+.fmg-btn:hover{background:#FF8640}
+.fmg-btn:focus-visible{outline:3px solid var(--white);outline-offset:3px}
+
+/* about */
+.fmg-about{padding:72px 0}
+.fmg-about .fmg-in{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:40px;align-items:start}
+.fmg-about h2{font-size:clamp(2.2rem,5vw,3rem)}
+.fmg-about p+p{margin-top:14px}
+.fmg-about p{color:var(--soft)}
+.fmg-about a{color:var(--orange-text);font-weight:700}
+
+.fmg-foot{background:var(--navy);color:#C9D1E0;padding:26px 0;font-size:.9rem}
+.fmg-foot .fmg-in{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+@media (max-width:860px){
+  .fmg-about .fmg-in{grid-template-columns:1fr;gap:14px}
+  .fmg-hero{padding:52px 0 60px}
+  .fmg-about{padding:52px 0}
+}
+</style>
+
+<div class="fmg">
+<header class="sq-head"><div class="fmg-in">
+<a class="sq-logo" href="#" aria-label="Fat Man Games home"><img src="logos/fmg3d-logo-horizontal.png" alt="Fat Man Games" width="480" height="141"></a>
+<ul class="sq-nav"><li><a href="#fmg-about">About</a></li></ul>
+</div></header>
+
+  <section class="fmg-hero">
+    <div class="fmg-in">
+      <img class="fmg-mark" src="logos/fmg3d-wobble.gif" alt="" width="520" height="450">
+      <h1 class="fmg-word">Fat Man<span>GAMES</span></h1>
+      <p>Fat Man Games is an independent studio making funny, feel-good PC games. The first ones are on the way.</p>
+      <a class="fmg-btn" href="#fmg-about">Get in touch</a>
+    </div>
+  </section>
+
+
+  <section class="fmg-about" id="fmg-about">
+    <div class="fmg-in">
+      <h2>Who's in the kitchen</h2>
+      <div>
+        <p>Fat Man Games is a one-person studio. The goal is simple: small, polished games at a fair price that are fun to pick up after a long day.</p>
+        <p>Press, playtests or just saying hi: <a href="mailto:hello@fatmangames.net">hello@fatmangames.net</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="fmg-foot">
+    <div class="fmg-in"><span>© 2026 Fat Man Games</span><span>fatmangames.net</span></div>
+  </footer>
+</div>
+
+</body></html>
