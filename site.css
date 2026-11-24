@@ -52,6 +52,7 @@ html,body{margin:0;background:#FFFFFF;color-scheme:light}
 .fmg-doc .fmg-date{color:var(--soft);font-size:.95rem;margin-bottom:32px}
 .fmg-doc h2{font-family:"DM Sans",system-ui,sans-serif;font-weight:700;font-size:1.15rem;margin:30px 0 8px}
 .fmg-doc p,.fmg-doc li{color:#3F3A33}
+.fmg-doc p+p{margin-top:12px}
 .fmg-doc ul{margin:8px 0 0;padding-left:1.2em}
 .fmg-doc li+li{margin-top:6px}
 .fmg-doc a{color:var(--orange-text);font-weight:700}
